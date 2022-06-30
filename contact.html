@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form</title>
+  </head>
+  <body>
+    <form method="post" action="https://formsubmit.co/ovichglen@gmail.com">
+         <h2>Contact Form</h2>
+         <fieldset>
+            <legend>Please fill in your Details below</legend>
+            <label>Name: <input type ="text" placeholder ="your full name" required/></label>
+            <p><label>Tel: <input type ="tel" placeholder ="Telephone Number"/></label></p>
+            <p><label>Email: <input type ="email" required placeholder ="someone@outlook.com"/></label></p>
+            <p><label for ="country">Country</label>
+               <select id ="country" name ="country">
+                  <option value ="usa">USA</option>
+                  <option value ="Uganda">UGANDA</option>
+                  <option value ="Portugual">PORTUGAL</option>
+               </select></p>
+            <p><label for ="subject"><strong>Subject</strong></label></p>
+            <textarea id ="subject" name ="subject" placeholder ="Write something.." required>
+            </textarea>
+            <p><input type ="submit"/>
+            <input type ="reset" value ="clear"/></p>
+         </fieldset>
+      </form>
+
+  </body>
+</html>

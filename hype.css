@@ -1,0 +1,67 @@
+.realm{
+  background-color: #CCCCCC;
+  width: 450px;
+  display: inline-block;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  margin-right: 222.5px;
+  transition: background 0.4s;
+}
+.realm:hover{
+  background-color: burlywood;
+
+}
+
+.condon {
+  background-color: #764AF1;
+  width: 450px;
+  display: inline-block;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  margin-left: 222.5px;
+  transition: background 0.4s;
+
+}
+.condon:hover{
+  background-color: burlywood;
+}
+.toast {
+  background-color: #576F72;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 450px;
+  margin-left: 450px;
+  transition: background 0.4s;
+}
+.toast:hover{
+  background-color: burlywood;
+}
+.tempo {
+  background-color: #82ACFF;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  display: inline-block;
+  width: 450px;
+  margin-right: 222.5px;
+  transition: background 0.4s;
+}
+.tempo:hover{
+  background-color: burlywood;
+}
+
+.drim {
+  background-color: #F1DDBF;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  display: inline-block;
+  width: 450px;
+  margin-left: 222.5px;
+  transition: background 0.4s;
+}
+.drim:hover{
+  background-color: burlywood;
+}
+
+body {
+  margin: 0px;
+}
